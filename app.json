@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "myapp",
-    "slug": "myapp",
+    "name": "Fi Wallet",
+    "slug": "kbxWallet",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/assets.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fi.wallet"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/assets.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fi.wallet"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e2a9ad09-81b7-4e6f-b7af-dfe6f14427c1"
+      }
     }
   }
 }
